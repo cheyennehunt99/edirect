@@ -12,6 +12,7 @@ function DataCard(props) {
     <li className="list-group-item">Email: {props.email}</li>
     <li className="list-group-item">Phone: {props.phone}</li>
     <li className="list-group-item">Location: {props.location.city}, {props.location.state}</li>
+    <li className="list-group-item">Age: {props.dob.age}</li>
   </ul>
 </div> : ""
 
